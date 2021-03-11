@@ -46,7 +46,7 @@ void UGameEnd::CheckThePawn() const
 	{
 		if(actor->GetName() == "DefaultPawn_BP_C_0")
 		{
-			UE_LOG(LogTemp,Warning,TEXT("BRUH"));
+			UE_LOG(LogTemp,Warning,TEXT("Destroy"));
 			keyActor->Destroy();
 		}
 	}

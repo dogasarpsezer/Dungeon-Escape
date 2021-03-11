@@ -20,7 +20,7 @@ void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
 
-	FString log = TEXT("HENLO!");
+	FString log = TEXT("HELLO!");
 	FString* ptrLog = &log;
 	FString objectName;
 	FTransform objectTransform;

@@ -50,7 +50,7 @@ void UGrabComponent::Interact()
 
 void UGrabComponent::Release()
 {
-	UE_LOG(LogTemp, Warning, TEXT("De-Bruh"));
+	UE_LOG(LogTemp, Warning, TEXT("releaseComponent"));
 	physicsHandler->ReleaseComponent();
 }
 
